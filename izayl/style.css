@@ -58,6 +58,7 @@ nav ul{
 	font-size: 14px;
 	float: right;
 }
+nav ul:after{content: "";display: table;clear: both;}
 	nav ul li{
 		float: left;
 		text-align: center;
