@@ -21,7 +21,15 @@ a{
 	color: #999;
 }
 /* End reset */
-
+@font-face {font-family: 'iconfont';
+    src: url('icon/iconfont.eot'); /* IE9*/
+    src: url('icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.left{float: left;}
+.right{float: right;}
 /* Begin Banner */
 nav{
 	padding-left: 59px;
@@ -369,9 +377,72 @@ nav ul{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 115px 125px;
 }
+.form > h1{color: #333;font-size: 21px;}
+.form p{font-size: 12px;margin: 0;}
 .form .form-container{
+	margin-top: 90px;
 	display: flex;
 	justify-content: center;
+}	
+	.form-container .nw-rules ul{padding-right: 20px;}
+	.form-container .nw-rules ul li h1{font-size:14px; color: #333;}
+	.form-container .nw-rules ul li p{}
+	.form-container .nw-rules ul li span{float: right;font-size: 12px;font-weight: bold;}
+	.form-container .nw-rules ul li span:hover{cursor: pointer;color: #333;}
+	.form-container .nw-rules ul li:after{content:"";display: table;clear: both;}
+
+	.form-container form input,
+	.form-container form textarea,
+	.form-container form button{background-color: #ECEDEE;border-radius: 5px;border: none;outline: none;}
+	.form-container form textarea,
+	.form-container form button{width: 100%;margin-bottom: 1em;}
+	.form-container form textarea{padding: 1em;}
+	.form-container form button{height: 40px;font-size: 14px;}
+	.form-container form input::-webkit-input-placeholder{color: #6C6564;}
+	.form-container form input{width: 50%;height:45px;text-indent: 1em;margin-bottom: 1em;}
+	.form-container form input.left{width:48%;float: left;}
+	.form-container form input.right{float: right;}
+		.form-container form input::-moz-placeholder{color: #6C6564;}
+		.form-container form input:-ms-input-placeholder{color: #6C6564;}
+		.form-container form input:-moz-placeholder{color: #6C6564;}
+		.form-container form textarea::-webkit-input-placeholder{color: #6C6564;}
+		.form-container form textarea::-moz-placeholder{color: #6C6564;}
+		.form-container form textarea:-ms-input-placeholder{color: #6C6564;}
+		.form-container form textarea:-moz-placeholder{color: #6C6564;}
+
+/* End section-6 form*/
+/* Begin Section-7 contact*/
+.contact{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #32353E;
+	height: 360px;
 }
-/* End form*/
+.contact h1{font-size: 21px;}
+.contact p{font-size: 12px;margin: 0;}
+.contact .submit{padding: 20px 0;}
+.contact .submit input,
+.contact .submit button{outline: none;border: none;height: 40px;}
+.contact .submit input{width: 430px;vertical-align: middle;text-indent: 1em;}
+.contact .submit button{width: 80px;background-color: #6F7178;font-size: 15px;vertical-align: middle;color: #fff;}
+.contact .socials{width: 300px;display: flex;justify-content: space-around;padding-top: 20px;}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:32px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+/* End Section-7 contact*/
+/* Begin footer*/
+footer{
+	background-color: #303039;
+	height: 60px;
+	padding: 0 90px;
+}
+footer:after{content: ""; display: table; clear: both; }
+footer span{line-height: 60px;}
+/* End footer*/
