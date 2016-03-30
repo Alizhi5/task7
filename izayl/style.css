@@ -400,10 +400,11 @@ nav ul{
 	.form-container form button{width: 100%;margin-bottom: 1em;}
 	.form-container form textarea{padding: 1em;}
 	.form-container form button{height: 40px;font-size: 14px;}
-	.form-container form input::-webkit-input-placeholder{color: #6C6564;}
 	.form-container form input{width: 50%;height:45px;text-indent: 1em;margin-bottom: 1em;}
 	.form-container form input.left{width:48%;float: left;}
 	.form-container form input.right{float: right;}
+
+		.form-container form input::-webkit-input-placeholder{color: #6C6564;}
 		.form-container form input::-moz-placeholder{color: #6C6564;}
 		.form-container form input:-ms-input-placeholder{color: #6C6564;}
 		.form-container form input:-moz-placeholder{color: #6C6564;}
@@ -411,6 +412,7 @@ nav ul{
 		.form-container form textarea::-moz-placeholder{color: #6C6564;}
 		.form-container form textarea:-ms-input-placeholder{color: #6C6564;}
 		.form-container form textarea:-moz-placeholder{color: #6C6564;}
+		.form-container form textarea:placeholder-shown{color: red;}
 
 /* End section-6 form*/
 /* Begin Section-7 contact*/
