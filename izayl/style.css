@@ -330,8 +330,9 @@ nav ul{
 	.news .row1 .right p{padding: 20px 0;font-size: 12px;line-height: 2em;}
 	.news .row1 .right button{width: 107px;height: 34px;font-size: 12px;margin-top: 10px;}
 	.news .row1 .right .slideDot{margin-top: 25px;}
-	.news .row1 .right .slideDot span{display:inline-block;height: 12px;width: 12px;border-radius: 50%;border: 1px #929293 solid;text-indent: 99999px;margin:0 7px;}
-	.news .row1 .right .slideDot span.active{background-color: #929293;}
+	.news .row1 .right .slideDot span{display:inline-block; height: 12px; width: 12px; border-radius: 50%; border: 1px #929293 solid; text-indent: 99999px; overflow: hidden; margin:0 7px; cursor: pointer;}
+	.news .row1 .right .slideDot span.active,
+	.news .row1 .right .slideDot span:hover{background-color: #929293;}
 .news .row2 > .right{
 	position: relative;
 	background-image: url("img/news@2.png");
