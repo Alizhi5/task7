@@ -362,3 +362,16 @@ nav ul{
 	background-color: #E74F4D;
 }
 /* End Section-5 news*/
+
+/* Begin Section-6 form*/
+.form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.form .form-container{
+	display: flex;
+	justify-content: center;
+}
+/* End form*/
