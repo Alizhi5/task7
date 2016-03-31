@@ -68,6 +68,7 @@ nav ul:after{content: "";display: table;clear: both;}
 		height: 58px;
 		line-height: 58px;
 		padding: 0 20px;
+		transition: all ease-in-out 0.4s;
 	}
 	.login{
 		color: #E74F4D;
@@ -104,10 +105,16 @@ nav ul:after{content: "";display: table;clear: both;}
 			height: 62px;
 			background-color: #E74F4D;
 			outline: none;
-			border: none;
+			border: 1px rgba(255,255,255,0) solid;
 			font-size: 30px;
 			color: #fff;
 			cursor: pointer;
+			transition: color ease-out 0.4s;
+		}
+		.nw-banner .mask .intro button:hover{
+			border: 1px #E74F4D solid;
+			color: #E74F4D;
+			background-color: transparent;
 		}
 
 /* End Banner*/
