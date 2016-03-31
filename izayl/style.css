@@ -20,6 +20,7 @@ a{
 	text-decoration: none;
 	color: #999;
 }
+textarea{resize: none;}
 /* End reset */
 @font-face {font-family: 'iconfont';
     src: url('icon/iconfont.eot'); /* IE9*/
